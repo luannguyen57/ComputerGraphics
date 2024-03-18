@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+  }
+  .ui {
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'IM Fell French Canon', serif;
+  }
+
+  .middle {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .middle .btn {
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: "sans-serif";
+  }
+  
+  .middle .btn:hover {
+    border-radius: 10px;
+    text-decoration: underline;
+  }
+  
